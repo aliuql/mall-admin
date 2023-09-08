@@ -110,10 +110,19 @@ import Team from './components/Team/index.vue';
         />
       </el-col>
     </el-row>
+    <div class="icp">
+      <el-link target="_blank" type="success" href="http://beian.miit.gov.cn/"><span class="icp">京ICP备2023022505号</span></el-link>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+.icp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
 .dashboard-container {
   padding: 24px;
   background-color: rgb(240, 242, 245);

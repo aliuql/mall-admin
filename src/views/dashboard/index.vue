@@ -111,7 +111,7 @@ import Team from './components/Team/index.vue';
       </el-col>
     </el-row>
     <div class="icp">
-      <el-link target="_blank" type="success" href="http://beian.miit.gov.cn/"><span class="icp">京ICP备2023022505号</span></el-link>
+      <el-link target="_blank" type="success" href="http://beian.miit.gov.cn/"><span class="icp">{{ $t('login.icp') }}</span></el-link>
     </div>
   </div>
 </template>

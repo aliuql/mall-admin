@@ -28,8 +28,8 @@ export default ({ mode }: ConfigEnv): UserConfig => {
           // 线上API地址
           //target: 'https://api.youlai.tech',
           // 本地API地址
-          //target: 'http://localhost:9999',
-          target: 'http://59.110.32.60:9999',
+          target: 'http://localhost:9999',
+          //target: 'http://59.110.32.60:9999',
           changeOrigin: true,
           rewrite: (path) =>
             path.replace(new RegExp('^' + env.VITE_APP_BASE_API), ''),
